@@ -59,7 +59,7 @@ window.onload = ()=>{
                     //console.log("boom hit");
                     endGame();
                     endSong();
-      startScreen.innerHTML="Game over Your score is :-" + player.score+"<br>" + " click here to restart the game ";
+      startScreen.innerHTML="Game over Your score is :-" + player.score+"<br>" + "click here to restart the game";
                 }
     
                 if(item.y >= 700){
